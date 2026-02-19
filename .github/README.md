@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-route-53-domains`](https://www.npmjs.com/package/@aws-sdk/client-route-53-domains/v/3.554.0).
+[`@aws-sdk/client-route-53-domains`](https://www.npmjs.com/package/@aws-sdk/client-route-53-domains/v/3.556.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.554.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.556.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-l4S7aXKy+HlzF4jn3qN/DSKG2Yz2u0yqynIgBR5cei5+hLd/PtRJwOZnPe62JJ8C
+sha384-wnamL+zpXvvmqU7wjsz6Dg3rtCsCoDML72BqCkatJ1YcztaKIUNFqrnQk18vIFAO
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.554.0/index.min.mjs"
+            "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.556.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.554.0/index.min.mjs": "sha384-l4S7aXKy+HlzF4jn3qN/DSKG2Yz2u0yqynIgBR5cei5+hLd/PtRJwOZnPe62JJ8C"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.556.0/index.min.mjs": "sha384-wnamL+zpXvvmqU7wjsz6Dg3rtCsCoDML72BqCkatJ1YcztaKIUNFqrnQk18vIFAO"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.554.0/index.min.mjs"
+                        "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.556.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.554.0/index.min.mjs": "sha384-l4S7aXKy+HlzF4jn3qN/DSKG2Yz2u0yqynIgBR5cei5+hLd/PtRJwOZnPe62JJ8C"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.556.0/index.min.mjs": "sha384-wnamL+zpXvvmqU7wjsz6Dg3rtCsCoDML72BqCkatJ1YcztaKIUNFqrnQk18vIFAO"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.554.0`)
+* Always pin to a specific version (`@3.556.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-route-53-domains/blob/refs/tags/3.554.0/LICENSE
+https://github.com/cloud-sdk-builds/client-route-53-domains/blob/refs/tags/3.556.0/LICENSE
 ```
 
 ---
