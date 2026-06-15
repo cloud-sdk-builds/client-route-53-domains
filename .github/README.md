@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-route-53-domains`](https://www.npmjs.com/package/@aws-sdk/client-route-53-domains/v/3.1068.0).
+[`@aws-sdk/client-route-53-domains`](https://www.npmjs.com/package/@aws-sdk/client-route-53-domains/v/3.1069.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-route-53-domains - [https://cloud-sdk-builds.github.io/?sdk=client-route-53-domains](https://cloud-sdk-builds.github.io/?sdk=client-route-53-domains)
-- @aws-sdk/client-route-53-domains v3.1068.0 - [https://cloud-sdk-builds.github.io/?sdk=client-route-53-domains&version=3.1068.0](https://cloud-sdk-builds.github.io/?sdk=client-route-53-domains&version=3.1068.0)
+- @aws-sdk/client-route-53-domains v3.1069.0 - [https://cloud-sdk-builds.github.io/?sdk=client-route-53-domains&version=3.1069.0](https://cloud-sdk-builds.github.io/?sdk=client-route-53-domains&version=3.1069.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1068.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1069.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-WckoFXoKsju0SB7zIP623v9dPAavNb+JQH+6wTkgtae2OPhm4w8hT/KKmDn97fku
+sha384-aqq8/PnHyAR+YGl0WKhSTavx8LmBcRLLj0pF7eooapvTDVHd4QbfzVGHsKQztrEQ
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1068.0/index.min.mjs"
+            "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1069.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1068.0/index.min.mjs": "sha384-WckoFXoKsju0SB7zIP623v9dPAavNb+JQH+6wTkgtae2OPhm4w8hT/KKmDn97fku"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1069.0/index.min.mjs": "sha384-aqq8/PnHyAR+YGl0WKhSTavx8LmBcRLLj0pF7eooapvTDVHd4QbfzVGHsKQztrEQ"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1068.0/index.min.mjs"
+                        "@aws-sdk/client-route-53-domains": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1069.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1068.0/index.min.mjs": "sha384-WckoFXoKsju0SB7zIP623v9dPAavNb+JQH+6wTkgtae2OPhm4w8hT/KKmDn97fku"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route-53-domains@3.1069.0/index.min.mjs": "sha384-aqq8/PnHyAR+YGl0WKhSTavx8LmBcRLLj0pF7eooapvTDVHd4QbfzVGHsKQztrEQ"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1068.0`)
+* Always pin to a specific version (`@3.1069.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-route-53-domains/blob/refs/tags/3.1068.0/LICENSE
+https://github.com/cloud-sdk-builds/client-route-53-domains/blob/refs/tags/3.1069.0/LICENSE
 ```
 
 ---
